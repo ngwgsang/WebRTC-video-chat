@@ -1,0 +1,32 @@
+input{
+    height: 30px;
+    outline: none;
+    border: 0;
+    padding: 5px 10px;
+}
+
+button{
+    border: 0;
+    outline: none;
+    width: 80px;
+}
+
+.callingBtn{
+    background: #273c75;
+    color: #fff;
+}
+
+.hangupBtn{
+    background: #c23616;
+    color: #fff;
+}
+
+
+.callingBox{
+    display: flex;
+    gap: 10px;
+    input{
+        width: 100%;
+    }
+}
+
